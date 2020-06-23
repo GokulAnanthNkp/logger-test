@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-18T11:11:33.483Z",
+        "line": 4,
+        "name": "Perform POST request to create new list",
+        "description": "",
+        "id": "verify-different-get-operation-using-rest-assured;perform-post-request-to-create-new-list",
+        "after": [
+          {
+            "result": {
+              "duration": 1113063700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Steps_Common.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4504257600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform POST operation for \"/list\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/list\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.Steps_Common.i_perform_POST_operation_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7000400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see status code \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"201\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.Steps_Common.i_should_see_status_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1286073600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see message \"The item/record was created successfully.\" in the response body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The item/record was created successfully.\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.Steps_Common.i_should_see_message_in_the_response_body(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Debug"
+          }
+        ]
+      }
+    ],
+    "name": "Verify different GET operation using Rest-Assured",
+    "description": "",
+    "id": "verify-different-get-operation-using-rest-assured",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/config/StoryID-ListFunctionalityTest.feature",
+    "tags": []
+  }
+]
