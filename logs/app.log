@@ -1,0 +1,22 @@
+2020-06-23 14:13:21,478 INFO t.ash [main] esggbsf
+2020-06-23 14:13:21,483 ERROR t.ash [main] msg
+2020-06-23 14:13:33,972 INFO t.ash [main] esggbsf
+2020-06-23 14:13:33,977 ERROR t.ash [main] msg
+2020-06-23 14:16:08 INFO  [main] ash:14 - esggbsf
+2020-06-23 14:16:08 ERROR [main] ash:15 - msg
+2020-06-23 14:22:17 INFO  [main] ash:14 - esggbsf
+2020-06-23 14:22:17 ERROR [main] ash:15 - msg
+2020-06-23 14:23:28 INFO  [main] ash:14 - esggbsf
+2020-06-23 14:23:28 ERROR [main] ash:15 - msg
+2020-06-23 14:27:42 INFO  [main] ash:14 - esggbsf
+2020-06-23 14:27:42 ERROR [main] ash:15 - msg
+2020-06-23 14:32:00 INFO  [main] LoggerTest:14 - Test-info
+2020-06-23 14:32:00 DEBUG [main] LoggerTest:15 - Debug
+2020-06-23 14:32:00 WARN  [main] LoggerTest:16 - Warn
+2020-06-23 14:32:00 FATAL [main] LoggerTest:18 - Fatal
+2020-06-23 14:32:00 ERROR [main] LoggerTest:19 - Error
+2020-06-23 14:32:38 INFO  [main] LoggerTest:14 - Test-info
+2020-06-23 14:32:38 DEBUG [main] LoggerTest:15 - Debug
+2020-06-23 14:32:38 WARN  [main] LoggerTest:16 - Warn
+2020-06-23 14:32:38 FATAL [main] LoggerTest:17 - Fatal
+2020-06-23 14:32:38 ERROR [main] LoggerTest:18 - Error

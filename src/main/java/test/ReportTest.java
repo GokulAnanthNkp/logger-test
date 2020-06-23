@@ -11,12 +11,10 @@ import net.masterthought.cucumber.Configuration;
 import net.masterthought.cucumber.ReportBuilder;
 import net.masterthought.cucumber.Reportable;
 
-@Slf4j
 public class ReportTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		log.info("FSADBVSJBNKJ");
 		System.out.println("Report");
 		File reportOutputDirectory = new File("target/demo");
 		List<String> jsonFiles = new ArrayList();
