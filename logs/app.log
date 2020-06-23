@@ -20,3 +20,13 @@
 2020-06-23 14:32:38 WARN  [main] LoggerTest:16 - Warn
 2020-06-23 14:32:38 FATAL [main] LoggerTest:17 - Fatal
 2020-06-23 14:32:38 ERROR [main] LoggerTest:18 - Error
+2020-06-23 14:44:58 INFO  [main] LoggerTest:14 - Test-info
+2020-06-23 14:44:58 DEBUG [main] LoggerTest:15 - Debug
+2020-06-23 14:44:58 WARN  [main] LoggerTest:16 - Warn
+2020-06-23 14:44:58 FATAL [main] LoggerTest:17 - Fatal
+2020-06-23 14:44:58 ERROR [main] LoggerTest:18 - Error
+2020-06-23 14:45:05 INFO  [main] LoggerTest:14 - Test-info
+2020-06-23 14:45:05 DEBUG [main] LoggerTest:15 - Debug
+2020-06-23 14:45:05 WARN  [main] LoggerTest:16 - Warn
+2020-06-23 14:45:05 FATAL [main] LoggerTest:17 - Fatal
+2020-06-23 14:45:05 ERROR [main] LoggerTest:18 - Error
